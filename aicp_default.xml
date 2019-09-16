@@ -79,7 +79,7 @@
 
   <!-- AICP repositories -->
   <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" />
-  <project path="build/make" name="AICP/build" remote="aicp" groups="pdk" >
+    <project path="build/make" name="limoniumstatice/android_build" remote="aicp" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -113,7 +113,7 @@
   <project path="packages/apps/DeskClock" name="AICP/packages_apps_DeskClock" remote="aicp" />
   <project path="packages/apps/Dialer" name="AICP/packages_apps_Dialer" remote="aicp" />
   <project path="packages/apps/DSPManager" name="AICP/packages_apps_DSPManager" remote="aicp" />
-  <project path="packages/apps/FMRadio" name="AICP/packages_apps_FMRadio" remote="aicp" />
+  <!--<project path="packages/apps/FMRadio" name="AICP/packages_apps_FMRadio" remote="aicp" />-->
   <project path="packages/apps/Launcher3" name="AICP/packages_apps_Launcher3" remote="aicp" />
   <project path="packages/apps/JamesDSPManager" name="AICP/packages_apps_JamesDSPManager" remote="aicp" />
   <project path="packages/apps/MusicFX" name="AICP/packages_apps_MusicFX" remote="aicp" />
@@ -121,12 +121,12 @@
   <project path="packages/apps/SmartNav" name="AICP/packages_apps_SmartNav" remote="aicp" />
   <project path="packages/apps/Snap" name="AICP/packages_apps_Snap" remote="aicp" />
   <project path="packages/apps/SnapdragonCamera" name="AICP/packages_apps_SnapdragonCamera" remote="aicp" />
-  <project path="packages/apps/TilesWallpaper" name="AICP/packages_apps_TilesWallpaper" remote="aicp" />
-  <project path="packages/apps/Updater" name="AICP/packages_apps_Updater" remote="aicp" />
+  <!--<project path="packages/apps/TilesWallpaper" name="AICP/packages_apps_TilesWallpaper" remote="aicp" />-->
+  <!--<project path="packages/apps/Updater" name="AICP/packages_apps_Updater" remote="aicp" />-->
   <project path="packages/overlays/AICP" name="AICP/packages_overlays_AICP" remote="aicp" />
   <project path="packages/providers/DownloadProvider" name="AICP/packages_providers_DownloadProvider" remote="aicp" />
   <project path="packages/providers/MediaProvider" name="AICP/packages_providers_MediaProvider" remote="aicp" />
-  <project path="packages/services/OmniJaws" name="AICP/packages_services_OmniJaws" remote="aicp" />
+  <!--<project path="packages/services/OmniJaws" name="AICP/packages_services_OmniJaws" remote="aicp" />-->
   <project path="packages/services/Telephony" name="AICP/packages_services_Telephony" remote="aicp" />
   <project path="packages/services/Telecomm" name="AICP/packages_services_Telecomm" remote="aicp" />
   <project path="prebuilts/clang/host/linux-x86" name="AICP/prebuilts_clang_host_linux-x86" groups="pdk" remote="aicp" />
@@ -152,7 +152,6 @@
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="lineage" />
   <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="lineage" />
   <project path="external/connectivity" name="android_external_connectivity" remote="lineage" />
-  <project path="hardware/qcom/fm" name="android_hardware_qcom_fm" remote="lineage" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" groups="pdk" remote="lineage" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="lineage" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk" remote="lineage" />
