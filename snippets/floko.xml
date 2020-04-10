@@ -17,8 +17,8 @@
   <remove-project name="crdroidandroid/android_vendor_crdroid" />
 
   <!-- FlokoROM -->
-  <project path="android" name="manifesto" remote="floko" />
-  <project path="build/make" name="build" remote="floko" groups="pdk" >
+  <project path="android" name="limoniumstatice/manifest" remote="github" revision="fl9.0" />  
+    <project path="build/make" name="limoniumstatice/android_build" remote="github" revision="fl9.0" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -27,13 +27,13 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="frameworks/base" name="frameworks_base" remote="floko" />
+  <project path="frameworks/base" name="limoniumstatice/frameworks_base" remote="github" revision="fl9.0" />
   <project path="lineage-sdk" name="lineage-sdk" remote="floko" />
   <project path="packages/apps/crDroidSettings" name="packages_apps_FlokoSettings" remote="floko" />
   <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="floko" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="floko" />
+  <project path="packages/apps/Settings" name="limoniumstatice/packages_apps_Settings" remote="github" revision="fl9.0" />
   <project path="vendor/addons" name="vendor_addons" remote="floko" />
   <project path="vendor/lineage" name="vendor_floko" remote="floko" />
 
-  <project path="packages/apps/OmniSwitch" name="omnirom/android_packages_apps_OmniSwitch" remote="github" revision="android-9.0" />
+  <!--<project path="packages/apps/OmniSwitch" name="omnirom/android_packages_apps_OmniSwitch" remote="github" revision="android-9.0" />-->
 </manifest>
