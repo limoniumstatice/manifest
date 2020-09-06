@@ -22,8 +22,8 @@
   <remove-project name="crdroidandroid/android_vendor_crDroidOTA" />
 
   <!-- FlokoROM -->
-  <project path="android" name="FlokoROM/manifesto" remote="floko" />
-  <project path="build/make" name="FlokoROM/build" remote="floko" >
+  <project path="android" name="limoniumstatice/manifest" remote="github" revision="fl10.0" />
+  <project path="build/make" name="limoniumstatice/android_build" remote="github" revision="fl10.0" >
 	  <copyfile src="core/root.mk" dest="Makefile" />
 	  <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
 	  <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -32,15 +32,16 @@
 	  <linkfile src="target" dest="build/target" />
 	  <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="frameworks/base" name="FlokoROM/frameworks_base" remote="floko" />
+  <project path="external/noto-fonts" name="limoniumstatice/noto-fonts" groups="pdk" remote="github" revision="fl10.0" />
+  <project path="frameworks/base" name="limoniumstatice/frameworks_base" remote="github" revision="fl10.0" />
   <project path="lineage-sdk" name="FlokoROM/lineage-sdk" remote="floko" />
   <project path="packages/apps/crDroidSettings" name="FlokoROM/packages_apps_FlokoSettings" remote="floko" />
   <project path="packages/apps/LineageParts" name="FlokoROM/packages_apps_LineageParts" remote="floko" />
   <project path="packages/apps/OmniSwitch" name="FlokoROM/packages_apps_OmniSwitch" remote="floko" />
-  <project path="packages/apps/Settings" name="FlokoROM/packages_apps_Settings" remote="floko" />
+  <project path="packages/apps/Settings" name="limoniumstatice/packages_apps_Settings" remote="github" revision="fl10.0" />
   <project path="packages/apps/SetupWizard" name="FlokoROM/packages_apps_SetupWizard" remote="floko" />
   <project path="packages/apps/Updater" name="FlokoROM/packages_apps_Updater" remote="floko" />
   <project path="packages/services/OmniJaws" name="FlokoROM/packages_services_OmniJaws" remote="floko" />
-  <project path="vendor/addons" name="FlokoROM/vendor_addons" remote="floko" />
+  <project path="vendor/addons" name="limoniumstatice/vendor_addons" remote="github" revision="fl10.0" />
   <project path="vendor/lineage" name="FlokoROM/vendor_floko" remote="floko" />
 </manifest>
