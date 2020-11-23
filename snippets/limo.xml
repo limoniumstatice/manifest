@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <project path="external/noto-fonts" name="limoniumstatice/noto-fonts" remote="github" revision="fl10.0" />
+  <project path="vendor/extra" name="limoniumstatice/vendor_addons" remote="github" />
+</manifest>
