@@ -35,11 +35,11 @@
   <project path="external/noto-fonts" name="limoniumstatice/noto-fonts" groups="pdk" remote="github" revision="fl10.0" />
   <project path="frameworks/base" name="limoniumstatice/frameworks_base" remote="github" revision="fl10.0" />
   <project path="lineage-sdk" name="FlokoROM/lineage-sdk" remote="floko" />
-  <project path="packages/apps/crDroidSettings" name="FlokoROM/packages_apps_FlokoSettings" remote="floko" />
+  <project path="packages/apps/crDroidSettings" name="limoniumstatice/packages_apps_FlokoSettings" remote="floko" revision="fl10.0" />
   <project path="packages/apps/LineageParts" name="FlokoROM/packages_apps_LineageParts" remote="floko" />
   <project path="packages/apps/OmniSwitch" name="FlokoROM/packages_apps_OmniSwitch" remote="floko" />
   <project path="packages/apps/Settings" name="limoniumstatice/packages_apps_Settings" remote="github" revision="fl10.0" />
-  <project path="packages/apps/SetupWizard" name="FlokoROM/packages_apps_SetupWizard" remote="floko" />
+  <project path="packages/apps/SetupWizard" name="limoniumstatice/packages_apps_SetupWizard" remote="floko" revision="fl10.0" />
   <project path="packages/apps/Updater" name="FlokoROM/packages_apps_Updater" remote="floko" />
   <project path="packages/services/OmniJaws" name="FlokoROM/packages_services_OmniJaws" remote="floko" />
   <project path="vendor/addons" name="limoniumstatice/vendor_addons" remote="github" revision="fl10.0" />
