@@ -43,5 +43,5 @@
   <project path="packages/apps/Updater" name="FlokoROM/packages_apps_Updater" remote="floko" />
   <project path="packages/services/OmniJaws" name="FlokoROM/packages_services_OmniJaws" remote="floko" />
   <project path="vendor/addons" name="limoniumstatice/vendor_addons" remote="github" revision="fl10.0" />
-  <project path="vendor/lineage" name="FlokoROM/vendor_floko" remote="floko" />
+  <project path="vendor/lineage" name="limoniumstatice/vendor_floko" remote="floko" revision="fl10.0" />
 </manifest>
