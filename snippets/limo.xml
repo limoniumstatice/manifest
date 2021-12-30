@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="gitlab"
+           fetch="https://gitlab.com"
+           sync-c="true" />
+
+  <remove-project name="device/generic/arm64" />
+  <remove-project name="device/generic/armv7-a-neon" />
+  <remove-project name="device/generic/car" />
+  <remove-project name="device/generic/common" />
+  <remove-project name="device/generic/goldfish" />
+  <remove-project name="device/generic/goldfish-opengl" />
+  <remove-project name="device/generic/mini-emulator-arm64" />
+  <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
+  <remove-project name="device/generic/mini-emulator-x86" />
+  <remove-project name="device/generic/mini-emulator-x86_64" />
+  <remove-project name="device/generic/qemu" />
+  <remove-project name="device/generic/uml" />
+  <remove-project name="device/generic/x86" />
+  <remove-project name="device/generic/x86_64" />
+  <remove-project name="device/sample" />
+  <remove-project name="LineageOS/android_packages_apps_TvSettings" />
+  <remove-project name="LineageOS/android_packages_apps_TV" />
+  <remove-project name="LineageOS/android_packages_providers_BookmarkProvider" />
+  <remove-project name="LineageOS/android_packages_providers_PartnerBookmarksProvider" />
+  <remove-project name="LineageOS/android_packages_providers_WeatherProvider" />
+  <remove-project name="LineageOS/android_packages_providers_TvProvider" />
+  <remove-project name="LineageOS/android_packages_screensavers_Basic" />
+  <remove-project name="LineageOS/android_packages_screensavers_PhotoTable" />
+  <remove-project name="LineageOS/android_packages_screensavers_WebView" />
+  <remove-project name="LineageOS/android_packages_wallpapers_LivePicker" />
+
+  <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gdb/darwin-x86" />
+  <remove-project name="platform/prebuilts/go/darwin-x86" />
+  <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
+
+  <remove-project name="LineageOS/android_packages_apps_Exchange" />
+  <remove-project name="LineageOS/android_packages_apps_FMRadio" />
+  <remove-project name="LineageOS/android_packages_apps_Jelly" />
+  <remove-project name="LineageOS/android_packages_apps_LockClock" />
+  <remove-project name="LineageOS/android_packages_apps_Updater" />
+
+  <remove-project name="LineageOS/android_vendor_lineage" />
+
+  <project path="vendor/lineage" name="limoniumstatice/vendor_floko" remote="github" />
+
+  <!-- FlokoROM GitLab -->
+  <project path="prebuilts/bromite" name="FlokoROM/prebuilts_bromite" remote="gitlab" revision="master" clone-depth="1" />
+
+</manifest>
