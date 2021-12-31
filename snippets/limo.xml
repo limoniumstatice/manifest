@@ -51,6 +51,7 @@
 
   <project path="external/noto-fonts" name="limoniumstatice/noto-fonts" groups="pdk" remote="github" />
   <project path="vendor/lineage" name="limoniumstatice/vendor_floko" remote="github" />
+  <project path="vendor/extra" name="limoniumstatice/vendor_addons" remote="github" />
 
   <!-- FlokoROM GitLab -->
   <project path="prebuilts/bromite" name="FlokoROM/prebuilts_bromite" remote="gitlab" revision="master" clone-depth="1" />
