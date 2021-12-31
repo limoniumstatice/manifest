@@ -46,8 +46,10 @@
   <remove-project name="LineageOS/android_packages_apps_LockClock" />
   <remove-project name="LineageOS/android_packages_apps_Updater" />
 
+  <remove-project name="platform/external/noto-fonts" />
   <remove-project name="LineageOS/android_vendor_lineage" />
 
+  <project path="external/noto-fonts" name="limoniumstatice/noto-fonts" groups="pdk" remote="github" />
   <project path="vendor/lineage" name="limoniumstatice/vendor_floko" remote="github" />
 
   <!-- FlokoROM GitLab -->
