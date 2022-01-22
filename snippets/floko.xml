@@ -67,9 +67,9 @@
           <linkfile src="target" dest="build/target" />
           <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="frameworks/base" name="FlokoROM/frameworks_base" remote="floko" />
+  <project path="frameworks/base" name="limoniumstatice/frameworks_base" remote="floko" />
   <project path="lineage-sdk" name="FlokoROM/lineage-sdk" remote="floko" />
-  <project path="packages/apps/crDroidSettings" name="FlokoROM/packages_apps_FlokoSettings" remote="floko" />
+  <project path="packages/apps/crDroidSettings" name="limoniumstatice/packages_apps_FlokoSettings" remote="floko" />
   <project path="packages/apps/LineageParts" name="FlokoROM/packages_apps_LineageParts" remote="floko" />
   <project path="packages/apps/OmniSwitch" name="FlokoROM/packages_apps_OmniSwitch" remote="floko" />
   <project path="packages/apps/Settings" name="FlokoROM/packages_apps_Settings" remote="floko" />
@@ -81,4 +81,7 @@
   
   <!-- FlokoROM GitLab -->
   <project path="prebuilts/bromite" name="FlokoROM/prebuilts_bromite" remote="gitlab" revision="master" clone-depth="1" />
+
+  <project path="external/noto-fonts" name="limoniumstatice/noto-fonts" groups="pdk" remote="github" />
+  <project path="vendor/extra" name="limoniumstatice/vendor_extra" remote="gitlab" revision="lineage-18.1" />
 </manifest>
