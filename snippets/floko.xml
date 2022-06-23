@@ -77,7 +77,7 @@
   <!--<project path="packages/apps/Updater" name="FlokoROM/packages_apps_Updater" remote="floko" />-->
   <project path="packages/services/OmniJaws" name="FlokoROM/packages_services_OmniJaws" remote="floko" />
   <project path="vendor/addons" name="FlokoROM/vendor_addons" remote="floko" />
-  <project path="vendor/lineage" name="FlokoROM/vendor_floko" remote="floko" />
+  <project path="vendor/lineage" name="limoniumstatice/vendor_floko" remote="floko" />
   
   <!-- FlokoROM GitLab -->
   <project path="prebuilts/bromite" name="limoniumstatice/prebuilts_bromite" remote="gitlab" revision="master" clone-depth="1" />
