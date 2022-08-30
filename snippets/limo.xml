@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="gitlab"
+          fetch="https://gitlab.com"
+          sync-c="true" />
+
+  <!-- remove-project to replace -->
+  <remove-project name="platform/external/noto-fonts" />
+
+  <project path="external/noto-fonts" name="limoniumstatice/noto-fonts" groups="pdk" remote="github" />
+  <project path="vendor/extra" name="limoniumstatice/vendor_extra" remote="gitlab" />
+
+</manifest>
