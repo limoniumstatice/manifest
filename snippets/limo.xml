@@ -6,9 +6,13 @@
           sync-c="true" />
 
   <!-- remove-project to replace -->
+  <remove-project name="LineageOS/android_packages_apps_Jelly" />
+  <remove-project name="LineageOS/android_vendor_lineage" />
   <remove-project name="platform/external/noto-fonts" />
 
   <project path="external/noto-fonts" name="limoniumstatice/noto-fonts" groups="pdk" remote="github" />
+  <project path="prebuilts/bromite" name="limoniumstatice/prebuilts_bromite" remote="gitlab" revision="master" clone-depth="1" />
   <project path="vendor/extra" name="limoniumstatice/vendor_extra" remote="gitlab" />
+  <project path="vendor/lineage" name="limoniumstatice/vendor_floko" remote="github" />
 
 </manifest>
