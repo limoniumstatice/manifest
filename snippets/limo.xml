@@ -8,6 +8,7 @@
   <!-- remove-project to replace -->
   <remove-project name="LineageOS/android_packages_apps_Jelly" />
   <remove-project name="LineageOS/android_vendor_lineage" />
+  <remove-project name="LineageOS/android_packages_apps_Etar" />
   <remove-project name="platform/external/noto-fonts" />
 
   <project path="external/noto-fonts" name="limoniumstatice/noto-fonts" groups="pdk" remote="github" />
