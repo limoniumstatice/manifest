@@ -6,10 +6,13 @@
           sync-c="true" />
 
   <!-- remove-project to replace -->
-  <remove-project name="LineageOS/android_packages_apps_Jelly" />
-  <remove-project name="LineageOS/android_vendor_lineage" />
   <remove-project name="LineageOS/android_packages_apps_Etar" />
+  <remove-project name="LineageOS/android_packages_apps_Jelly" />
+  <remove-project name="LineageOS/android_packages_apps_Updater" />
+  <remove-project name="LineageOS/android_packages_screensavers_PhotoTable" />
+  <remove-project name="LineageOS/android_vendor_lineage" />
   <remove-project name="platform/external/noto-fonts" />
+  <remove-project name="platform/packages/screensavers/Basic" />
   <!-- remove Infrastructure -->
   <remove-project name="LineageOS/charter" />
   <remove-project name="LineageOS/cm_crowdin" />
