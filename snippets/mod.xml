@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- remove-project -->
+  <remove-project name="crdroidandroid/android_external_faceunlock" />
+  <remove-project name="crdroidandroid/android_packages_apps_FaceUnlockService" />
+  <remove-project name="crdroidandroid/android_packages_apps_Updater" />
+  <remove-project name="crdroidandroid/android_vendor_crDroidOTA" />
+  <remove-project name="crdroidandroid/android_vendor_crdroid" />
+  <remove-project name="LineageOS/android_packages_apps_Etar" />
+  <remove-project name="LineageOS/android_packages_apps_Seedvault" />
+  <remove-project name="LineageOS/android_packages_screensavers_PhotoTable" />
+  <remove-project name="platform/external/noto-fonts" />
+  <remove-project name="platform/packages/screensavers/Basic" />
+
+  <!-- remove Darwin -->
+  <remove-project name="platform/prebuilts/bazel/darwin-x86_64" />
+  <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
+  <remove-project name="platform/prebuilts/go/darwin-x86" />
+
+  <project path="external/noto-fonts" name="limoniumstatice/noto-fonts" groups="pdk" remote="github" />
+  <project path="vendor/extra" name="limoniumstatice/vendor_extra" remote="crdroid-gitlab" revision="lineage-20.0" />
+  <project path="vendor/lineage" name="limoniumstatice/vendor_floko" remote="crdroid" />
+</manifest>
