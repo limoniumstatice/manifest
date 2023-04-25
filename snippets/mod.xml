@@ -4,6 +4,7 @@
   <!-- remove-project -->
   <remove-project name="crdroidandroid/android_external_faceunlock" />
   <remove-project name="crdroidandroid/android_packages_apps_FaceUnlockService" />
+  <remove-project name="crdroidandroid/android_packages_apps_GameSpace" />
   <remove-project name="crdroidandroid/android_packages_apps_Launcher3" />
   <remove-project name="crdroidandroid/android_packages_apps_Updater" />
   <remove-project name="crdroidandroid/android_vendor_crDroidOTA" />
