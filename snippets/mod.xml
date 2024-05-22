@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- remove-project -->
+  <remove-project name="LineageOS/android_packages_apps_Etar" />
+  <remove-project name="LineageOS/android_packages_apps_Seedvault" />
+  <remove-project name="LineageOS/android_packages_apps_Updater" />
+  <remove-project name="LineageOS/android_vendor_lineage" />
+  <remove-project name="platform/external/noto-fonts" />
+
+  <!-- remove Infrastructure -->
+  <remove-project name="LineageOS/charter" />
+  <remove-project name="LineageOS/cm_crowdin" />
+  <remove-project name="LineageOS/hudson" />
+  <remove-project name="LineageOS/mirror" />
+  <remove-project name="LineageOS/www" />
+  <remove-project name="LineageOS/lineage_wiki" />
+
+  <project path="external/noto-fonts" name="limoniumstatice/noto-fonts" groups="pdk" remote="github" />
+  <project path="vendor/lineage" name="limoniumstatice/vendor_floko" remote="github" />
+</manifest>
